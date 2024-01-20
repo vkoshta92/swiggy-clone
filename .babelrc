@@ -1,0 +1,14 @@
+// with options
+{
+  "presets": [
+    ["@babel/preset-env", {"targets": {"node":"current"}}],
+    // this is require for jsx in test cases kyoki vo sirf js smghte h
+    ["@babel/preset-react",{"runtime":"automatic"}]
+
+  ]
+  }
+//   https://www.npmjs.com/package/babel-plugin-transform-remove-console
+
+// to remove console log  we use bablerc
+// bable rc require json.
+// json is diffrent from js object
